@@ -1,0 +1,23 @@
+{
+  "name": "fraql-example",
+  "version": "1.0.0",
+  "description": "React + Apollo + FraQL",
+  "keywords": ["apollo", "react", "fraql", "graphql", "apollographql"],
+  "main": "src/index.js",
+  "dependencies": {
+    "apollo-boost": "0.1.6",
+    "fraql": "1.1.1",
+    "graphql": "0.13.2",
+    "react": "16.3.2",
+    "react-apollo": "2.1.4",
+    "react-dom": "16.3.2",
+    "react-scripts": "1.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
