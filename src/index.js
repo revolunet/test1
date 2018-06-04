@@ -10,6 +10,7 @@ const client = new ApolloClient({
 
 render(
   <ApolloProvider client={client}>
+    <h1>GraphQL + Apollo 2</h1>
     <App />
   </ApolloProvider>,
   document.getElementById("root")
